@@ -1,0 +1,3033 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\code_capriccio">
+      <UniqueIdentifier>{e60763b8-cecf-4b08-a914-a2ab8da7d3e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_capriccio\array">
+      <UniqueIdentifier>{606ce39f-05cc-44e4-86c2-a49503921ebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_capriccio\linked_list">
+      <UniqueIdentifier>{7661dd3a-1258-42e2-af85-8a01e41bb69a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_capriccio\str">
+      <UniqueIdentifier>{a8fc29dd-ef3d-497f-82df-6e46b7a96d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_capriccio\stack_queue">
+      <UniqueIdentifier>{a01a517f-82d8-4133-822b-c6a5a9bb9f1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_capriccio\binary_tree">
+      <UniqueIdentifier>{5659d237-269b-4b33-a0f7-9e1c3f444d3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_capriccio\backtracking">
+      <UniqueIdentifier>{45dd3362-2a8d-4717-a41b-210f21eca815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\lc_others">
+      <UniqueIdentifier>{582a6868-4406-4065-a855-c63d505e7ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_capriccio\greedy">
+      <UniqueIdentifier>{9f7bfb77-a992-4321-80ab-dc7aec7c46af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_top">
+      <UniqueIdentifier>{fd61889d-49bc-4468-a4a4-bbf2785604fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_top\sliding_window">
+      <UniqueIdentifier>{ffbfa93a-d67f-4e70-8fb0-7c606e6443b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_top\dp">
+      <UniqueIdentifier>{fd1a73dd-e70e-4540-89a1-2da42d7e79e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_top\hash_table">
+      <UniqueIdentifier>{e127251c-c51a-49f8-a63f-a8bbfca0f898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_top\enum">
+      <UniqueIdentifier>{8d45ad12-64a7-45bb-bd43-8e77af4fe88f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_top\other">
+      <UniqueIdentifier>{3dc07d55-af3d-4bcc-bb6a-ddb55ade7518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_top\monotone_stack">
+      <UniqueIdentifier>{9951d113-61ec-492c-993a-cce528bfaa48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_top\bit_operation">
+      <UniqueIdentifier>{40a18bed-46f7-4e52-9602-9811b0c09aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_top\double_pointer">
+      <UniqueIdentifier>{e3c6ebff-6aaf-45da-b618-d1d6ec9b3a83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_top\backtracking">
+      <UniqueIdentifier>{8bbe28cd-78bd-4e3b-873b-3bfe5f236410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_top\pre_sum">
+      <UniqueIdentifier>{a23d8856-f3a1-4b3a-9768-703d261930bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_capriccio\double_pointer">
+      <UniqueIdentifier>{b9378faa-3881-44a9-a7d8-b807db866d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_capriccio\monotone_stack">
+      <UniqueIdentifier>{cb3451dd-1b3c-4a8e-b5cd-a8cec1b65803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_capriccio\hash_table">
+      <UniqueIdentifier>{b7cee45e-7927-41dc-8d02-d984ed4fe0bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_capriccio\dp">
+      <UniqueIdentifier>{725c22e8-239c-498b-b938-e1611d0fe404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_top\graph">
+      <UniqueIdentifier>{7a88622b-8d4f-487c-a688-eb0415545233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_capriccio\graph">
+      <UniqueIdentifier>{6c696308-187e-4226-acbd-93a2b6ea83f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_capriccio\disjoint_set_union">
+      <UniqueIdentifier>{3bbe6faf-b14a-47cb-aa07-5e01c3702dda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_top\design">
+      <UniqueIdentifier>{b69ddac4-e930-4f9f-bd0d-8a1e88196b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_capriccio\simulate">
+      <UniqueIdentifier>{8bdbc0b3-8a00-4c46-8c4c-75dc7557ff3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_top\sort">
+      <UniqueIdentifier>{11a81cc2-4626-4496-b4ec-a2e49f493b04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_capriccio\bit_operation">
+      <UniqueIdentifier>{528e0d77-aa0d-4aa9-a7af-b55dccc81c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_top\linked_list">
+      <UniqueIdentifier>{9eee7d94-0ef8-4550-8cd9-f17cde5236d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_top\string">
+      <UniqueIdentifier>{dd1536ef-5b89-4842-8168-2d074c85a42b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_top\array">
+      <UniqueIdentifier>{dfa6bb30-d981-4e1c-8e9b-58ff495e23d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_top\divide_conquer">
+      <UniqueIdentifier>{ff862ff5-1ea0-4452-88a1-a9e80e48607f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_top\tree">
+      <UniqueIdentifier>{115192eb-c40e-4ee8-9c3f-26accdc9d8be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\code_top\maths">
+      <UniqueIdentifier>{93cfecab-fd48-4c08-b384-578815765efe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Solution704.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution35.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution34.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution69.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution367.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution27.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution26.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution283.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution844.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution977.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution209.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution904.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution76.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution59.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution54.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionSP29.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution203.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ListNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution707.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution206.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution24.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution19.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution0207.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution142.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution242.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution383.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution49.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution438.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution349.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution350.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution202.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution454.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution15.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution18.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution344.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution541.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solutionsp05.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution151.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solutionsp58.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution28.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution459.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution232.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution225.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution20.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution1047.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution150.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution239.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution347.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution144.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution145.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution94.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution144_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution145_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution94_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution102.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution107.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution199.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution637.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution429.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution515.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution116.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution104.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution111.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution226.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution101.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution100.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution572.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution559.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution111_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution222.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution222_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution110.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution110_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution257.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution404.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution513.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution513_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution112.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution106.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution105.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution654.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution617.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution700.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution98.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution530.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution501.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution236.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution235.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution701.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution450.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution669.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution108.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution538.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution77.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution216.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution17.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution39.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution40.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution131.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution93.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution93_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution4_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution78.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution6.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution6_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution90.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution491.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution7.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution46.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution47.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution8.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution332.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution332_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution9.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution51.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution10.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution37.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution455.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution11.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution12.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution376.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution53.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution13.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution122.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution122_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution14.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution55.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution45.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution16.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution1005.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution1005_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution21.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution22.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution134.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution23.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution23_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution25.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution135.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution29.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution860.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution406.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution30.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution452.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution31.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution435.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution33.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution763.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution36.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution38.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution41.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution56.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution42.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution42_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution43.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution415.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution738.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution968.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution509.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution43_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution44.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution70.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution48.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution50.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution746.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution52.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution57.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution62.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution58.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution63.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution61.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution61_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution343.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution60.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution96.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution65.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution65_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution66.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution67.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution68.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution71.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution72.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution416.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution73.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution1049.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution74.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution494.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution494_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution75.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution79.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution474.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution518.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution80.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution83.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution82.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution89.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution377.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution3_ct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution1_ct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution76_ct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution70_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution322.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution718_ct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution718_ct2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution718_ct3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution279.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution718_ct_sw1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution560_ct_sw1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution560_ct_enum1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution139_cc_dp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution139_cc_bt1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution560_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution138_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution198_cc_dp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution198_cc_dp2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution138_ct_ht2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution213_cc_dp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution138_ct_other1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution739_ct_ms_1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution337_cc_dp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution136_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution136_ct_bo1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution347_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution121_cc_dp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution349_ct_dopo1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution122_cc_dp2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution84_ct_ms1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution123_cc_dp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution85_ct_ms1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution188_cc_dp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution37_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution37_ct_ba1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution309_cc_dp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution714_cc_dp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SpSolution48_ct_dp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution300_cc_dp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution300_cc_dp2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution242_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution674_cc_dp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution18_ct_dopo1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution718_cc_dp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution718_cc_dp2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution718_ct_sw2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution1143_cc_dp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution_sp3_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution_sp3_ct_ht2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution557_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution1135_cc_dp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution380_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution204_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution53_cc_dp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution706_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution705_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution392_cc_dp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution523_ct_ps1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution115_cc_dp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution525_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution583_cc_dp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution583_cc_dp2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution72_cc_dp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution166_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution647_cc_dp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution647_cc_dopo1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution438_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution516_cc_dp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution739_cc_ms1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution496_cc_ms1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution974_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution692_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution503_cc_ms1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution42_cc_ms1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution1044_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution84_cc_ms1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution386_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution49_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution1365_cc_arr1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution1365_cc_arr2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution941_cc_arr1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution149_cc_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution1207_cc_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution283_cc_dopo1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution_sp50_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution895_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution36_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution202_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution202_ct_dopo1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution189_cc_dopo1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution724_cc_arr1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution34_cc_arr1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution30_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution922_cc_arr1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution454_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution35_cc_arr1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution24_cc_ll1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution381_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution19_cc_ll1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution234_cc_ll1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution143_cc_ll1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution141_cc_ll1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution0207_ll1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution159_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution205_cc_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution409_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution1002_cc_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution451_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution925_cc_str1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution350_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution844_cc_str1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution844_cc_str2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution726_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution129_cc_bt1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution129_cc_bt2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution781_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution1382_cc_bt1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution325_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution217_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution100_cc_bt1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution116_cc_bt1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution187_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution187_ct_ht2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution116_cc_bt2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution52_cc_backtracking1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution387_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution649_cc_greedy1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution205_ct_hashtable1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution992_ct_hashtable1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution209_ct_sliding_window1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution424_ct_sliding_window1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution1221_cc_greedy1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution1004_ct_sliding_window1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution5_cc_dp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution132_cc_dp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution594_ct_ht1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution673_cc_dp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution463_ct_graph1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution841_cc_graph1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution1160_ct_hashtable1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution127_cc_graph1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution632_ct_hashtable1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution684_cc_disjointsetunion1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution1090_ct_hashtable1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution685_cc_disjointsetunion1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution146_ct_design1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution657_cc_simulate1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution31_simulate1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution31_simulate2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution215_ct_sort1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution215_ct_sort2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution1356_cc_bitoperation1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution15_ct_doublepointer1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution797_cc_graph1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution206_ct_linkedlist1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution206_ct_linkedlist2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution200_cc_graph1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution200_cc_graph2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution25_ct_linkedlist1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution25_cc_linkedlist2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution695_cc_graph1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution695_cc_graph2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution5_ct_string1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution5_ct_string2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution1020_cc_graph1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution130_cc_graph1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution130_cc_graph2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution92_ct_linkedlist1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution417_cc_graph1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution827_cc_graph1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution127_cc_graph2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution841_cc_graph2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution463_cc_graph1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution92_ct_linkedlist2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution1971_cc_graph1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution143_ct_linkedlist1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution143_ct_linkedlist2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution684_cc_graph1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution1444_ct_dp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution685_cc_graph1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution704_cc_arr3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution27_cc_arr3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution977_cc_array3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution33_ct_array1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution209_cc_array3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution300_ct_dp3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution300_ct_dp3_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution59_cc_array3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution200_ct_graph3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution203_cc_linkedlist3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution21_ct_linkedlist3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution21_ct_linkedlist3_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution707_cc_linkedlist3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution56_ct_sort3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution206_cc_linkedlist3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution206_cc_linkedlist3_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution415_ct_string3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution24_cc_linkedlist3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution46_ct_backtracking3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution19_cc_linkedlist3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution121_ct_dp3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution121_ct_dp3_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution0207_cc_linkedlist3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution53_ct_slidingwindow3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution53_ct_dp3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution53_ct_dp3_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution53_ct_divideconquer3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution142_cc_linkedlist3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution54_ct_array3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution54_ct_array3_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution242_cc_hashtable3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution72_ct_dp3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution349_cc_hashtable3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution349_cc_dopo3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution102_ct_tree3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution102_ct_tree3_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution202_cc_hashtable3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution202_cc_dopo3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution912_ct_array3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution912_ct_array3_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution912_ct_array3_3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution912_ct_array3_4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution912_ct_array3_5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution912_ct_array3_6.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution912_ct_array3_6_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution912_ct_array3_7.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution912_ct_array3_8.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution912_ct_array3_9.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution912_ct_array3_10.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution15_cc_dopo3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution141_ct_linkedlist3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution18_cc_hashtable3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution23_ct_linkedlist3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution23_ct_linkedlist3_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution23_ct_linkedlist3_3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution454_cc_hashtable3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution383_cc_hashtable3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution165_ct_string3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution344_cc_str3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution1143_ct_dp3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution541_cc_str3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution19_ct_linkedlist3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution54_cc_str3_kama.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution236_ct_tree3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution236_ct_tree3_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution151_cc_str3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution55_cc_str3_kama.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution103_ct_tree3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution28_cc_str3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution28_cc_str3_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution20_ct_string3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution69_ct_divideconquer3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution69_ct_maths3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution459_cc_str3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution459_cc_str3_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution27_cc_dopo3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution199_ct_tree3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution199_ct_tree3_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution199_ct_tree3_3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution344_cc_str3_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution662_ct_tree3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution662_ct_tree3_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution206_cc_dopo3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution221_ct_dp3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution221_ct_dp3_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution19_cc_dopo3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution82_ct_dopo3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution82_ct_linkedlist3_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution0207_cc_dopo3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution93_ct_backtracking3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution142_cc_dopo3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution88_ct_array3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution15_cc_dopo3_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution78_ct_backtracking3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution78_ct_backtracking3_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution78_ct_backtracking3_3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution78_ct_backtracking3_4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution18_cc_dopo3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution22_ct_backtracking3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution22_ct_dp3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution22_ct_tree3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Solution34.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution35.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution69.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution367.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution27.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution26.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution283.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution844.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution977.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution209.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution904.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution76.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution59.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution54.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="SolutionSP29.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution24.cpp">
+      <Filter>源文件\code_capriccio\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution203.cpp">
+      <Filter>源文件\code_capriccio\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution707.cpp">
+      <Filter>源文件\code_capriccio\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution206.cpp">
+      <Filter>源文件\code_capriccio\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution19.cpp">
+      <Filter>源文件\code_capriccio\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution0207.cpp">
+      <Filter>源文件\code_capriccio\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution142.cpp">
+      <Filter>源文件\code_capriccio\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution242.cpp">
+      <Filter>源文件\code_capriccio\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution383.cpp">
+      <Filter>源文件\code_capriccio\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution49.cpp">
+      <Filter>源文件\code_capriccio\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution438.cpp">
+      <Filter>源文件\code_capriccio\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution349.cpp">
+      <Filter>源文件\code_capriccio\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution350.cpp">
+      <Filter>源文件\code_capriccio\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution202.cpp">
+      <Filter>源文件\code_capriccio\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1.cpp">
+      <Filter>源文件\code_capriccio\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution454.cpp">
+      <Filter>源文件\code_capriccio\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution15.cpp">
+      <Filter>源文件\code_capriccio\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution18.cpp">
+      <Filter>源文件\code_capriccio\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution344.cpp">
+      <Filter>源文件\code_capriccio\str</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution541.cpp">
+      <Filter>源文件\code_capriccio\str</Filter>
+    </ClCompile>
+    <ClCompile Include="Solutionsp05.cpp">
+      <Filter>源文件\code_capriccio\str</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution151.cpp">
+      <Filter>源文件\code_capriccio\str</Filter>
+    </ClCompile>
+    <ClCompile Include="Solutionsp58.cpp">
+      <Filter>源文件\code_capriccio\str</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution28.cpp">
+      <Filter>源文件\code_capriccio\str</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution459.cpp">
+      <Filter>源文件\code_capriccio\str</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution232.cpp">
+      <Filter>源文件\code_capriccio\stack_queue</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution225.cpp">
+      <Filter>源文件\code_capriccio\stack_queue</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution20.cpp">
+      <Filter>源文件\code_capriccio\stack_queue</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1047.cpp">
+      <Filter>源文件\code_capriccio\stack_queue</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution150.cpp">
+      <Filter>源文件\code_capriccio\stack_queue</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution239.cpp">
+      <Filter>源文件\code_capriccio\stack_queue</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution347.cpp">
+      <Filter>源文件\code_capriccio\stack_queue</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution144.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution145.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution94.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution144_2.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution145_2.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution94_2.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution102.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution107.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution199.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution637.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution429.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution515.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution116.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution104.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution111.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution226.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution101.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution100.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution572.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution559.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution111_2.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution222.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution222_2.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution110.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution110_2.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution257.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution404.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution513.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution513_2.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution112.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution106.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution105.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution654.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution617.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution700.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution98.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution530.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution501.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution236.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution235.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution701.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution450.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution669.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution108.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件\code_capriccio</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution538.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution77.cpp">
+      <Filter>源文件\code_capriccio\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution216.cpp">
+      <Filter>源文件\code_capriccio\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution17.cpp">
+      <Filter>源文件\code_capriccio\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution39.cpp">
+      <Filter>源文件\code_capriccio\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution40.cpp">
+      <Filter>源文件\code_capriccio\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution2.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution131.cpp">
+      <Filter>源文件\code_capriccio\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution3.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution93.cpp">
+      <Filter>源文件\code_capriccio\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution93_2.cpp">
+      <Filter>源文件\code_capriccio\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution4.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution4_2.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution78.cpp">
+      <Filter>源文件\code_capriccio\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution6.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution6_2.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution5.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution90.cpp">
+      <Filter>源文件\code_capriccio\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution491.cpp">
+      <Filter>源文件\code_capriccio\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution7.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution46.cpp">
+      <Filter>源文件\code_capriccio\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution47.cpp">
+      <Filter>源文件\code_capriccio\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution8.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution332.cpp">
+      <Filter>源文件\code_capriccio\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution332_2.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution9.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution51.cpp">
+      <Filter>源文件\code_capriccio\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution37.cpp">
+      <Filter>源文件\code_capriccio\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution10.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution455.cpp">
+      <Filter>源文件\code_capriccio\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution11.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution12.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution376.cpp">
+      <Filter>源文件\code_capriccio\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution53.cpp">
+      <Filter>源文件\code_capriccio\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution13.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution122.cpp">
+      <Filter>源文件\code_capriccio\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution122_2.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution14.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution55.cpp">
+      <Filter>源文件\code_capriccio\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution45.cpp">
+      <Filter>源文件\code_capriccio\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution16.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1005.cpp">
+      <Filter>源文件\code_capriccio\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1005_2.cpp">
+      <Filter>源文件\code_capriccio\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution21.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution22.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution134.cpp">
+      <Filter>源文件\code_capriccio\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution23.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution23_2.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution25.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution135.cpp">
+      <Filter>源文件\code_capriccio\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution29.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution860.cpp">
+      <Filter>源文件\code_capriccio\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution406.cpp">
+      <Filter>源文件\code_capriccio\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution30.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution452.cpp">
+      <Filter>源文件\code_capriccio\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution31.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution435.cpp">
+      <Filter>源文件\code_capriccio\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution32.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution33.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution763.cpp">
+      <Filter>源文件\code_capriccio\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution36.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution38.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution41.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution56.cpp">
+      <Filter>源文件\code_capriccio\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution42.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution42_2.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution43.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution415.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution738.cpp">
+      <Filter>源文件\code_capriccio\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution968.cpp">
+      <Filter>源文件\code_capriccio\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution509.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution43_2.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution44.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution70.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution48.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution50.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution746.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution52.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution57.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution62.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution58.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution63.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution61.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution61_2.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution343.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution60.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution96.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution64.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution65.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution65_2.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution66.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution67.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution68.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution71.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution72.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution416.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution73.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1049.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution74.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution494.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution494_2.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution75.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution79.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution474.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution518.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution80.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution83.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution82.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution89.cpp">
+      <Filter>源文件\lc_others</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution377.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution70_2.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution322.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1_ct.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution3_ct.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution76_ct.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution718_ct.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution718_ct2.cpp">
+      <Filter>源文件\code_top\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution718_ct3.cpp">
+      <Filter>源文件\code_top\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution279.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution718_ct_sw1.cpp">
+      <Filter>源文件\code_top\sliding_window</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution560_ct_enum1.cpp">
+      <Filter>源文件\code_top\enum</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution560_ct_sw1.cpp">
+      <Filter>源文件\code_top\sliding_window</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution139_cc_dp1.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution139_cc_bt1.cpp">
+      <Filter>源文件\code_capriccio\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution560_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution138_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution198_cc_dp1.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution198_cc_dp2.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution213_cc_dp1.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution138_ct_ht2.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution138_ct_other1.cpp">
+      <Filter>源文件\code_top\other</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution739_ct_ms_1.cpp">
+      <Filter>源文件\code_top\monotone_stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution337_cc_dp1.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution136_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution136_ct_bo1.cpp">
+      <Filter>源文件\code_top\bit_operation</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution347_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution121_cc_dp1.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution349_ct_dopo1.cpp">
+      <Filter>源文件\code_top\double_pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution84_ct_ms1.cpp">
+      <Filter>源文件\code_top\monotone_stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution122_cc_dp2.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution123_cc_dp1.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution85_ct_ms1.cpp">
+      <Filter>源文件\code_top\monotone_stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution188_cc_dp1.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution37_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution37_ct_ba1.cpp">
+      <Filter>源文件\code_top\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution309_cc_dp1.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution714_cc_dp1.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="SpSolution48_ct_dp1.cpp">
+      <Filter>源文件\code_top\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution300_cc_dp1.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution300_cc_dp2.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution242_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution674_cc_dp1.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution18_ct_dopo1.cpp">
+      <Filter>源文件\code_top\double_pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution718_cc_dp1.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution718_cc_dp2.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution718_ct_sw2.cpp">
+      <Filter>源文件\code_top\sliding_window</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1143_cc_dp1.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution_sp3_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution_sp3_ct_ht2.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution557_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1135_cc_dp1.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution380_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution204_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution53_cc_dp1.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution706_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution705_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution392_cc_dp1.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution523_ct_ps1.cpp">
+      <Filter>源文件\code_top\pre_sum</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution115_cc_dp1.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution525_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution583_cc_dp1.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution583_cc_dp2.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution72_cc_dp1.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution647_cc_dp1.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution166_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution647_cc_dopo1.cpp">
+      <Filter>源文件\code_capriccio\double_pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution438_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution516_cc_dp1.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution739_cc_ms1.cpp">
+      <Filter>源文件\code_capriccio\monotone_stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution496_cc_ms1.cpp">
+      <Filter>源文件\code_capriccio\monotone_stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution974_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution692_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution503_cc_ms1.cpp">
+      <Filter>源文件\code_capriccio\monotone_stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution42_cc_ms1.cpp">
+      <Filter>源文件\code_capriccio\monotone_stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1044_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution84_cc_ms1.cpp">
+      <Filter>源文件\code_capriccio\monotone_stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution386_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution49_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1365_cc_arr1.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1365_cc_arr2.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution941_cc_arr1.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution149_cc_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1207_cc_ht1.cpp">
+      <Filter>源文件\code_capriccio\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution283_cc_dopo1.cpp">
+      <Filter>源文件\code_capriccio\double_pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution_sp50_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution895_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution36_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution202_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution202_ct_dopo1.cpp">
+      <Filter>源文件\code_top\double_pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution189_cc_dopo1.cpp">
+      <Filter>源文件\code_capriccio\double_pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution724_cc_arr1.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution34_cc_arr1.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution30_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution922_cc_arr1.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution454_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution35_cc_arr1.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution24_cc_ll1.cpp">
+      <Filter>源文件\code_capriccio\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution381_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution19_cc_ll1.cpp">
+      <Filter>源文件\code_capriccio\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution234_cc_ll1.cpp">
+      <Filter>源文件\code_capriccio\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution143_cc_ll1.cpp">
+      <Filter>源文件\code_capriccio\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution141_cc_ll1.cpp">
+      <Filter>源文件\code_capriccio\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution0207_ll1.cpp">
+      <Filter>源文件\code_capriccio\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution159_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution205_cc_ht1.cpp">
+      <Filter>源文件\code_capriccio\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution409_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1002_cc_ht1.cpp">
+      <Filter>源文件\code_capriccio\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution451_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution925_cc_str1.cpp">
+      <Filter>源文件\code_capriccio\str</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution350_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution844_cc_str2.cpp">
+      <Filter>源文件\code_capriccio\str</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution726_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution129_cc_bt1.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution129_cc_bt2.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution781_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1382_cc_bt1.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution325_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution217_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution100_cc_bt1.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution116_cc_bt1.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution187_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution187_ct_ht2.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution116_cc_bt2.cpp">
+      <Filter>源文件\code_capriccio\binary_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution52_cc_backtracking1.cpp">
+      <Filter>源文件\code_capriccio\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution387_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution649_cc_greedy1.cpp">
+      <Filter>源文件\code_capriccio\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution205_ct_hashtable1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution992_ct_hashtable1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution209_ct_sliding_window1.cpp">
+      <Filter>源文件\code_top\sliding_window</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution424_ct_sliding_window1.cpp">
+      <Filter>源文件\code_top\sliding_window</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1221_cc_greedy1.cpp">
+      <Filter>源文件\code_capriccio\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1004_ct_sliding_window1.cpp">
+      <Filter>源文件\code_top\sliding_window</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution5_cc_dp1.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution132_cc_dp1.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution594_ct_ht1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution673_cc_dp1.cpp">
+      <Filter>源文件\code_capriccio\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution463_ct_graph1.cpp">
+      <Filter>源文件\code_top\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution841_cc_graph1.cpp">
+      <Filter>源文件\code_capriccio\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1160_ct_hashtable1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution127_cc_graph1.cpp">
+      <Filter>源文件\code_capriccio\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution632_ct_hashtable1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution684_cc_disjointsetunion1.cpp">
+      <Filter>源文件\code_capriccio\disjoint_set_union</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1090_ct_hashtable1.cpp">
+      <Filter>源文件\code_top\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution685_cc_disjointsetunion1.cpp">
+      <Filter>源文件\code_capriccio\disjoint_set_union</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution146_ct_design1.cpp">
+      <Filter>源文件\code_top\design</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution657_cc_simulate1.cpp">
+      <Filter>源文件\code_capriccio\simulate</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution31_simulate1.cpp">
+      <Filter>源文件\code_capriccio\simulate</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution31_simulate2.cpp">
+      <Filter>源文件\code_capriccio\simulate</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution215_ct_sort1.cpp">
+      <Filter>源文件\code_top\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution215_ct_sort2.cpp">
+      <Filter>源文件\code_top\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1356_cc_bitoperation1.cpp">
+      <Filter>源文件\code_capriccio\bit_operation</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution15_ct_doublepointer1.cpp">
+      <Filter>源文件\code_top\double_pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution797_cc_graph1.cpp">
+      <Filter>源文件\code_capriccio\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution206_ct_linkedlist1.cpp">
+      <Filter>源文件\code_top\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution206_ct_linkedlist2.cpp">
+      <Filter>源文件\code_top\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution200_cc_graph1.cpp">
+      <Filter>源文件\code_capriccio\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution200_cc_graph2.cpp">
+      <Filter>源文件\code_capriccio\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution25_ct_linkedlist1.cpp">
+      <Filter>源文件\code_top\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution695_cc_graph1.cpp">
+      <Filter>源文件\code_capriccio\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution695_cc_graph2.cpp">
+      <Filter>源文件\code_capriccio\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution5_ct_string1.cpp">
+      <Filter>源文件\code_top\string</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution5_ct_string2.cpp">
+      <Filter>源文件\code_top\string</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1020_cc_graph1.cpp">
+      <Filter>源文件\code_capriccio\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution130_cc_graph1.cpp">
+      <Filter>源文件\code_capriccio\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution130_cc_graph2.cpp">
+      <Filter>源文件\code_capriccio\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution92_ct_linkedlist1.cpp">
+      <Filter>源文件\code_top\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution417_cc_graph1.cpp">
+      <Filter>源文件\code_capriccio\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution827_cc_graph1.cpp">
+      <Filter>源文件\code_capriccio\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution127_cc_graph2.cpp">
+      <Filter>源文件\code_capriccio\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution841_cc_graph2.cpp">
+      <Filter>源文件\code_capriccio\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution463_cc_graph1.cpp">
+      <Filter>源文件\code_capriccio\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution92_ct_linkedlist2.cpp">
+      <Filter>源文件\code_top\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1971_cc_graph1.cpp">
+      <Filter>源文件\code_capriccio\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution143_ct_linkedlist1.cpp">
+      <Filter>源文件\code_top\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution143_ct_linkedlist2.cpp">
+      <Filter>源文件\code_top\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution684_cc_graph1.cpp">
+      <Filter>源文件\code_capriccio\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1444_ct_dp1.cpp">
+      <Filter>源文件\code_top\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution685_cc_graph1.cpp">
+      <Filter>源文件\code_capriccio\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution704_cc_arr3.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution27_cc_arr3.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution977_cc_array3.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution33_ct_array1.cpp">
+      <Filter>源文件\code_top\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution209_cc_array3.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution300_ct_dp3.cpp">
+      <Filter>源文件\code_top\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution300_ct_dp3_2.cpp">
+      <Filter>源文件\code_top\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution59_cc_array3.cpp">
+      <Filter>源文件\code_capriccio\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution200_ct_graph3.cpp">
+      <Filter>源文件\code_top\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution203_cc_linkedlist3.cpp">
+      <Filter>源文件\code_capriccio\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution21_ct_linkedlist3.cpp">
+      <Filter>源文件\code_top\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution25_cc_linkedlist2.cpp">
+      <Filter>源文件\code_capriccio\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution21_ct_linkedlist3_2.cpp">
+      <Filter>源文件\code_top\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution707_cc_linkedlist3.cpp">
+      <Filter>源文件\code_capriccio\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution56_ct_sort3.cpp">
+      <Filter>源文件\code_top\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution206_cc_linkedlist3.cpp">
+      <Filter>源文件\code_capriccio\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution206_cc_linkedlist3_2.cpp">
+      <Filter>源文件\code_capriccio\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution415_ct_string3.cpp">
+      <Filter>源文件\code_top\string</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution24_cc_linkedlist3.cpp">
+      <Filter>源文件\code_capriccio\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution46_ct_backtracking3.cpp">
+      <Filter>源文件\code_top\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution19_cc_linkedlist3.cpp">
+      <Filter>源文件\code_capriccio\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution121_ct_dp3.cpp">
+      <Filter>源文件\code_top\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution121_ct_dp3_2.cpp">
+      <Filter>源文件\code_top\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution0207_cc_linkedlist3.cpp">
+      <Filter>源文件\code_capriccio\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution53_ct_slidingwindow3.cpp">
+      <Filter>源文件\code_top\sliding_window</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution53_ct_dp3.cpp">
+      <Filter>源文件\code_top\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution53_ct_dp3_2.cpp">
+      <Filter>源文件\code_top\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution53_ct_divideconquer3.cpp">
+      <Filter>源文件\code_top\divide_conquer</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution142_cc_linkedlist3.cpp">
+      <Filter>源文件\code_capriccio\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution54_ct_array3.cpp">
+      <Filter>源文件\code_top\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution54_ct_array3_2.cpp">
+      <Filter>源文件\code_top\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution242_cc_hashtable3.cpp">
+      <Filter>源文件\code_capriccio\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution72_ct_dp3.cpp">
+      <Filter>源文件\code_top\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution349_cc_hashtable3.cpp">
+      <Filter>源文件\code_capriccio\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution349_cc_dopo3.cpp">
+      <Filter>源文件\code_capriccio\double_pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution102_ct_tree3.cpp">
+      <Filter>源文件\code_top\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution102_ct_tree3_2.cpp">
+      <Filter>源文件\code_top\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution202_cc_hashtable3.cpp">
+      <Filter>源文件\code_capriccio\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution202_cc_dopo3.cpp">
+      <Filter>源文件\code_capriccio\double_pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution912_ct_array3.cpp">
+      <Filter>源文件\code_top\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution912_ct_array3_2.cpp">
+      <Filter>源文件\code_top\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution912_ct_array3_3.cpp">
+      <Filter>源文件\code_top\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution912_ct_array3_4.cpp">
+      <Filter>源文件\code_top\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution912_ct_array3_5.cpp">
+      <Filter>源文件\code_top\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution912_ct_array3_6.cpp">
+      <Filter>源文件\code_top\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution912_ct_array3_6_2.cpp">
+      <Filter>源文件\code_top\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution912_ct_array3_7.cpp">
+      <Filter>源文件\code_top\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution912_ct_array3_8.cpp">
+      <Filter>源文件\code_top\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution912_ct_array3_9.cpp">
+      <Filter>源文件\code_top\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution912_ct_array3_10.cpp">
+      <Filter>源文件\code_top\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution15_cc_dopo3.cpp">
+      <Filter>源文件\code_capriccio\double_pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution141_ct_linkedlist3.cpp">
+      <Filter>源文件\code_top\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution18_cc_hashtable3.cpp">
+      <Filter>源文件\code_capriccio\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution23_ct_linkedlist3.cpp">
+      <Filter>源文件\code_top\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution23_ct_linkedlist3_2.cpp">
+      <Filter>源文件\code_top\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution23_ct_linkedlist3_3.cpp">
+      <Filter>源文件\code_top\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution454_cc_hashtable3.cpp">
+      <Filter>源文件\code_capriccio\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution383_cc_hashtable3.cpp">
+      <Filter>源文件\code_capriccio\hash_table</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution165_ct_string3.cpp">
+      <Filter>源文件\code_top\string</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution344_cc_str3.cpp">
+      <Filter>源文件\code_capriccio\str</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution1143_ct_dp3.cpp">
+      <Filter>源文件\code_top\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution541_cc_str3.cpp">
+      <Filter>源文件\code_capriccio\str</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution19_ct_linkedlist3.cpp">
+      <Filter>源文件\code_top\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution54_cc_str3_kama.cpp">
+      <Filter>源文件\code_capriccio\str</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution236_ct_tree3.cpp">
+      <Filter>源文件\code_top\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution236_ct_tree3_2.cpp">
+      <Filter>源文件\code_top\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution151_cc_str3.cpp">
+      <Filter>源文件\code_capriccio\str</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution55_cc_str3_kama.cpp">
+      <Filter>源文件\code_capriccio\str</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution28_cc_str3.cpp">
+      <Filter>源文件\code_capriccio\str</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution28_cc_str3_2.cpp">
+      <Filter>源文件\code_capriccio\str</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution20_ct_string3.cpp">
+      <Filter>源文件\code_top\string</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution69_ct_divideconquer3.cpp">
+      <Filter>源文件\code_top\divide_conquer</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution69_ct_maths3.cpp">
+      <Filter>源文件\code_top\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution459_cc_str3.cpp">
+      <Filter>源文件\code_capriccio\str</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution459_cc_str3_2.cpp">
+      <Filter>源文件\code_capriccio\str</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution27_cc_dopo3.cpp">
+      <Filter>源文件\code_capriccio\double_pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution199_ct_tree3.cpp">
+      <Filter>源文件\code_top\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution199_ct_tree3_2.cpp">
+      <Filter>源文件\code_top\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution199_ct_tree3_3.cpp">
+      <Filter>源文件\code_top\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution344_cc_str3_2.cpp">
+      <Filter>源文件\code_capriccio\str</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution662_ct_tree3.cpp">
+      <Filter>源文件\code_top\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution662_ct_tree3_2.cpp">
+      <Filter>源文件\code_top\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution206_cc_dopo3.cpp">
+      <Filter>源文件\code_capriccio\double_pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution221_ct_dp3.cpp">
+      <Filter>源文件\code_top\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution221_ct_dp3_2.cpp">
+      <Filter>源文件\code_top\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution19_cc_dopo3.cpp">
+      <Filter>源文件\code_capriccio\double_pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution82_ct_dopo3.cpp">
+      <Filter>源文件\code_top\double_pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution82_ct_linkedlist3_2.cpp">
+      <Filter>源文件\code_top\linked_list</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution0207_cc_dopo3.cpp">
+      <Filter>源文件\code_capriccio\double_pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution93_ct_backtracking3.cpp">
+      <Filter>源文件\code_top\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution142_cc_dopo3.cpp">
+      <Filter>源文件\code_capriccio\double_pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution88_ct_array3.cpp">
+      <Filter>源文件\code_top\array</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution15_cc_dopo3_2.cpp">
+      <Filter>源文件\code_capriccio\double_pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution78_ct_backtracking3.cpp">
+      <Filter>源文件\code_top\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution78_ct_backtracking3_2.cpp">
+      <Filter>源文件\code_top\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution78_ct_backtracking3_3.cpp">
+      <Filter>源文件\code_top\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution78_ct_backtracking3_4.cpp">
+      <Filter>源文件\code_top\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution18_cc_dopo3.cpp">
+      <Filter>源文件\code_capriccio\double_pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution22_ct_backtracking3.cpp">
+      <Filter>源文件\code_top\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution22_ct_dp3.cpp">
+      <Filter>源文件\code_top\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution22_ct_tree3.cpp">
+      <Filter>源文件\code_top\tree</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
